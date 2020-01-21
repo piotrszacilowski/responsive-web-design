@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Atari</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#oferta">Oferta</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#contact">Mapa</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <main>
+        <h2 class="section__header">Oferta</h2>
+        <div class="flex-grid-thirds">
+            <div class="col">
+                <h3>Informatyka</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi cumque, repudiandae sunt magnam fugiat tenetur ea repellendus. Nisi modi earum porro totam sequi tempore aliquid corporis vero dolores ipsum corrupti et labore soluta
+                    neque aliquam facere saepe, quos nulla. Animi cupiditate facilis harum facere repellendus minima recusandae, dolor, similique esse nihil velit? Fugit est consequuntur itaque veniam tempore, atque neque facere explicabo tenetur ducimus
+                    doloremque cum sequi cumque modi autem nemo! Alias provident sequi consequatur voluptatibus reiciendis explicabo iure placeat voluptates eius nobis repellendus similique, qui enim aspernatur possimus!</p>
+            </div>
+            <div class="col">
+                <h3>Logistyka</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quod, laudantium tenetur quaerat reprehenderit, animi eveniet voluptate, libero fuga nostrum reiciendis necessitatibus magni tempora officiis aut cupiditate. Reprehenderit
+                    aliquid rerum rem, alias sapiente nemo doloribus eligendi voluptatem voluptas velit nam eum dicta perspiciatis neque, tempora corporis id expedita praesentium? Qui assumenda autem officia, tempore doloribus eligendi iusto exercitationem
+                    sunt, facilis quia, sequi culpa consequuntur deleniti debitis velit explicabo perferendis alias adipisci? Illo laborum blanditiis incidunt optio facere eos, necessitatibus quo voluptates numquam harum modi in soluta, tempora nam assumenda
+                    laudantium ad, voluptatum eligendi dolore commodi dignissimos quisquam. Debitis, eius nemo.</p>
+            </div>
+            <div class="col">
+                <h3>Zarządzanie</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, ratione quas mollitia voluptatem perferendis sint commodi tempora dicta qui, reprehenderit neque eligendi quia fugit natus ullam! Repellendus voluptatum autem distinctio.
+                    Voluptatibus accusamus adipisci ex mollitia minus quos incidunt dolorem, dolorum quis, velit cum omnis? Modi, eum sit! Maiores, ab mollitia excepturi consectetur expedita hic. Amet laudantium enim commodi provident necessitatibus voluptate
+                    quo? Doloribus voluptatibus molestiae nostrum alias error, dolorem quae eligendi nobis magni dolor labore accusamus laudantium. Pariatur, illo. Voluptatibus quod nisi mollitia consequatur reiciendis fugiat perferendis sunt officiis
+                    similique molestias, laudantium earum ad voluptate?</p>
+            </div>
+        </div>
+        <section id="galeria" class="gallery">
+            <h2 class="section__header">Galeria</h2>
+            <div class="gallery__wrapper">
+                <img src="img/image1.jpg" id="photo">
+                <img src="img/image2.jpg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('photo','','IMG/image2.jpg',1)">
+                <img src="img/image3.jpg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('photo','','IMG/image3.jpg',1)">
+                <img src="img/image4.jpg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('photo','','IMG/image4.jpg',1)">
+                <img src="img/image5.jpg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('photo','','IMG/image5.jpg',1)">
+            </div>
+        </section>
+        <section id="video" class="video">
+            <h2 class="section__header">Video</h2>
+            <div class="youtube">
+                <div class="youtube__wrapper"><iframe width="65%" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section__header">Mapa</h2>
+            <div class="contact__map">
+                <div class="gmap_canvas"><iframe width="65%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Warszawa%20Pa%C5%82ac%20Kultury&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2019 Piotr Szaciłowski</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
