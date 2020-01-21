@@ -148,7 +148,7 @@ nav {
         margin: 6px 0;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         right: 0px;
         height: 92vh;
         top: 8vh;
