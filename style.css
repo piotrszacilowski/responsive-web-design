@@ -4,13 +4,16 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 header {
     width: 100%;
     position: flex;
     background: #3f3f5f;
     box-shadow: 0 1px 3px rgba(56, 56, 56);
     z-index: 1;
-  }
+}
+
+
 /* Nav */
 
 nav {
@@ -137,7 +140,8 @@ nav {
 /* Mobile */
 
 @media screen and (max-width: 768px) {
-    html, body {
+    html,
+    body {
         overflow-x: hidden;
         z-index: 100;
     }
